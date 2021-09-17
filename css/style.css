@@ -142,7 +142,7 @@
   opacity: 0.2;
 }
 
-.menu__item:hover > div {
+.menu__item:hover > span {
   opacity: 1;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1446,11 +1446,11 @@ nav.active {
           align-items: center;
 }
 
-.chapter-list__item > div {
+.chapter-list__item > span {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.chapter-list__item:hover > div,
+.chapter-list__item:hover > span,
 .chapter-list__item:hover > .chapter-list__item-link {
   -webkit-transition: all 0.1s linear;
   -o-transition: all 0.1s linear;
